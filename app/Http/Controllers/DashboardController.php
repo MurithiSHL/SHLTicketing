@@ -9,7 +9,7 @@ class DashboardController extends Controller
   public function dashboard()
   {
       # code...
-      $content="The content of dashboard will appere here";
+      $content="The content of dashboard will appear here";
       return view('dashboard')->with(compact('content'));
   }
   //create function that returns tickets page
